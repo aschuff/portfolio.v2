@@ -97,11 +97,18 @@ pre.pre-show{
 	border-radius: 0px 0px 4px 4px;
 
 }
-.img-responsive {
+#myface {
 	display: block;
-	max-width: 75%;
+	max-width: 60%;
 	height: auto;
 	border-radius: 50%;
+	margin: 0 auto;
+}
+.img-responsive {
+	border-radius: 10%;
+	display: block;
+	max-width: 80%;
+	height: auto;
 	margin: 0 auto;
 }
 /* Skills */
@@ -126,10 +133,28 @@ padding: 8px 12px;
 }
 /* Footer */
 
-#footer{
+footer{
 	padding: 20px 0px;
 	background: #f3f3f3;
 	text-align: center
+	height: auto;
+}
+footer h2 {
+	margin-top: 0;
+}
+footer a {
+	margin-right: 1%;
+}
+footer p.lead {
+	color: #FFF;
+}
+li.social {
+	margin-top: 1%;
+}
+#phone:hover {
+	color: #1ABC9C;
+	text-decoration: none;
+	cursor: pointer;
 }
 .twitter-share-button{
 	top: 4px;

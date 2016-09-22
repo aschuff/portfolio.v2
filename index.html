@@ -66,9 +66,9 @@
             <h1 class="h1_home wow fadeIn" data-wow-delay="0.4s">Amanda M. Schuff</h1>
             <h3 class="h3_home wow fadeIn" data-wow-delay="0.6s">Front End Web Developer</h3>
             <ul class="list-inline intro-social-buttons">
-                <li><a href="#about" target="_blank" class="btn  btn-lg mybutton_cyano wow fadeIn" data-wow-delay="0.8s"><span class="network-name">Learn More</span></a>
+                <li><a href="Resume.pdf" target="_blank" class="btn  btn-lg mybutton_cyano wow fadeIn" data-wow-delay="0.8s"><span class="network-name">Resume</span></a>
                 </li>
-                <li id="download"><a href="#contact" class="btn  btn-lg mybutton_standard wow swing wow fadeIn" data-wow-delay="1.2s"><span class="network-name">Contact</span></a>
+                <li><a href="#contact" class="btn  btn-lg mybutton_standard wow swing wow fadeIn" data-wow-delay="1.2s"><span class="network-name">Contact</span></a>
                 </li>
             </ul>
         </div>
@@ -95,28 +95,23 @@
 
             <div class="collapse navbar-collapse navbar-right navbar-ex1-collapse">
                 <ul class="nav navbar-nav">
-
                     <li class="menuItem"><a href="#about">Who Am I?</a></li>
                     <li class="menuItem"><a href="#skills">Skills</a></li>
                     <li class="menuItem"><a href="#projects">Projects</a></li>
                     <li class="menuItem"><a href="#contact">Contact Me</a></li>
+                    <li class="menuItem"><a href="Resume.pdf" target="_blank">Resume</a></li>
                 </ul>
             </div>
-
         </div>
     </nav>
 
     <!-- Who am I -->
     <div id="about" class="content-section-a">
-
         <div class="container">
-
             <div class="row">
-
                 <div class="col-sm-6 pull-right wow fadeInRightBig">
-                    <img class="img-responsive " src="img/myface.jpg" alt="">
+                    <img class="img-responsive" id= 'myface' src="img/myface.jpg" alt="">
                 </div>
-
                 <div class="col-sm-6 wow fadeInLeftBig" data-animation-delay="200">
                     <h3 class="section-heading">Who am I?</h3>
                     <div class="sub-title lead3">More than just a developer.</div>
@@ -128,10 +123,9 @@
                 </div>
             </div>
         </div>
-        <!-- /.container -->
     </div>
 
-    <!-- Technology -->
+    <!-- Skills -->
     <!-- <div id="skills" class="content-section-b" style="border-top: 0">
         <div class="container">
 
@@ -169,64 +163,45 @@
     <div id="skills" class="content-section-b" style="border-top: 0">
         <div class="container">
             <div class="row">
-
                 <div class="col-md-6 col-md-offset-3 text-center wrap_title">
                     <h2>My Skills</h2>
                     <p class="lead" style="margin-top:0">Tools of the trade.</p>
                 </div>
-
                 <div class="col-sm-4 wow fadeInDown text-center">
                     <img class="rotate" src="img/icon/html5.png" alt="Generic placeholder image">
                     <h3>HTML5</h3>
                     <p class="lead">HTML5 is the backbone from which a developer such as myself begins the whole process. Keeping it clean and well organized is a must.</p>
                 </div>
-                <!-- /.col-lg-4 -->
-
                 <div class="col-sm-4 wow fadeInDown text-center">
                     <img class="rotate" src="img/icon/css3.png" alt="Generic placeholder image">
                     <h3>CSS3</h3>
-                    <p class="lead">Animations are so much fun and with CSS3 they are so much easier to include. SASS > CSS when it comes to building from the ground up.</p>
+                    <p class="lead">Animations are so much fun and with CSS3 they are easier to include. SASS > CSS when it comes to building from the ground up.</p>
                 </div>
-                <!-- /.col-lg-4 -->
-
                 <div class="col-sm-4 wow fadeInDown text-center">
                     <img class="rotate" src="img/icon/javascript.png" alt="Generic placeholder image">
                     <h3>JavaScript</h3>
                     <p class="lead">Where all the magic happens! I am versed in libraries of JavaScript like AngularJS, BackboneJS, and jQuery. </p>
                 </div>
-                <!-- /.col-lg-4 -->
             </div>
-            <!-- /.row -->
-
             <div class="row tworow">
-
                 <div class="col-sm-4  wow fadeInDown text-center">
                     <img class="rotate" src="img/icon/responsive.png" alt="Generic placeholder image">
                     <h3>Responsive</h3>
-                    <p class="lead">I SASS my CSS every chance I get and I incorporate frameworks such as Bootstrap and Zurb Foundation to expedite the process.</p>
+                    <p class="lead">I SASS my CSS every chance I get and I incorporate frameworks such as Bootstrap and Zurb Foundation to create mobile friendly apps.</p>
                 </div>
-                <!-- /.col-lg-4 -->
-
                 <div class="col-sm-4 wow fadeInDown text-center">
                     <img class="rotate" src="img/icon/gulp.png" alt="Generic placeholder image">
                     <h3>Gulp</h3>
                     <p class="lead">Gulp is my go-to when it comes to my personal dev envrionment. It does it all so that my workflow is seamless. </p>
                 </div>
-                <!-- /.col-lg-4 -->
-
                 <div class="col-sm-4 wow fadeInDown text-center">
                     <img class="rotate" src="img/icon/npmLogo.png" alt="Generic placeholder image">
                     <h3>Npm</h3>
                     <p class="lead">I love npm becuase it has so many command options that can be used directly from the command line.</p>
                 </div>
-                <!-- /.col-lg-4 -->
-
             </div>
         </div>
     </div>
-
-
-    <!-- <div id="projects" class="content-section-b"> -->
 
     <!-- <div class="container">
             <div class="row">
@@ -259,155 +234,108 @@
                 <h2>My Work</h2>
                 <p class="lead" style="margin-top:0">Things I've Done.</p>
             </div>
-
             <div class="row">
-
                 <div class="col-sm-6 pull-right wow fadeInRightBig">
-                    <img class="img-responsive " src="img/Lingo.jpg" alt="">
+                    <a href="http://immense-committee.surge.sh" target="_blank"><img class="img-responsive " src="img/Lingo.jpg" alt=""></a>
                 </div>
                 <div class="col-sm-6 wow fadeInLeftBig" data-animation-delay="200">
                     <h3 class="section-heading">Lingo</h3>
-                    <p class="lead">A special thanks to Death to the Stock Photo for providing the photographs that you see in this template.
+                    <p class="lead">A single-page web application that helps
+                      users learn a second language by reading the news. Lingo supplies users with partially translated news articles with
+                      hover to translate as a key feature. Lingo allows users to set their learning
+                      level, choose article topics, and decide between French or Spanish.
                     </p>
                     <p><a class="btn btn-embossed btn-primary" href="http://immense-committee.surge.sh" target="_blank" role="button">Demo</a>
                         <a class="btn btn-embossed btn-info" href="https://github.com/aschuff/lingo" target="_blank" role="button">Github</a></p>
-
                     <ul class="descp lead2">
-                        <li><i class="glyphicon glyphicon-signal"></i> Reliable and Secure Platform</li>
-                        <li><i class="glyphicon glyphicon-refresh"></i> Everything is perfectly orgainized for future</li>
-                        <li><i class="glyphicon glyphicon-headphones"></i> Attach large file easily</li>
+                        <li><i class="fa fa-code fa-lg"></i> AngularJS</li>
+                        <li><i class="fa fa-desktop"></i> Foundation Framework</li>
+                        <li><i class="fa fa-file-text-o" aria-hidden="true"></i> NY Times API</li>
                     </ul>
                 </div>
             </div>
         </div>
-
     </div>
+    <hr>
     <div id="projects" class="content-section-a">
 
         <div class="container">
 
             <div class="row">
-
-                <div class="col-sm-6 pull-right wow fadeInLeftBig">
+              <div class="col-sm-6 pull-right wow fadeInRightBig" data-animation-delay="200">
+                  <a href="https://learned-beginner.surge.sh/" target="_blank"><img id="gridland" class="img-responsive " src="img/Gridland.jpg" alt=""></a>
+              </div>
+                <div class="col-sm-6 wow fadeInLeftBig">
                     <h3 class="section-heading">Gridland Game</h3>
-                    <p class="lead">A special thanks to Death to the Stock Photo for providing the photographs that you see in this template.
+                    <p class="lead">Adventures in
+                      Gridland is a “Snake” inspired grid game. The aesthetic is clean and simple to
+                      give that analog feel. The less moves you make the higher your final score.
                     </p>
                     <p><a class="btn btn-embossed btn-primary" href="https://learned-beginner.surge.sh/" target="_blank" role="button">Demo</a>
                         <a class="btn btn-embossed btn-info" href="https://github.com/aschuff/grid-explorerHW/tree/gridlandComplete" target="_blank" role="button">Github</a></p>
-
                     <ul class="descp lead2">
-                        <li><i class="glyphicon glyphicon-signal"></i> Reliable and Secure Platform</li>
-                        <li><i class="glyphicon glyphicon-refresh"></i> Everything is perfectly orgainized for future</li>
-                        <li><i class="glyphicon glyphicon-headphones"></i> Attach large file easily</li>
+                        <li><i class="fa fa-code fa-lg"></i> BackboneJS</li>
+                        <li><i class="fa fa-compress"></i> AJAX</li>
+                        <li><i class="fa fa-th"></i> HTML Generated Grid</li>
                     </ul>
-
-                </div>
-
-                <div class="col-sm-6 wow fadeInRightBig" data-animation-delay="200">
-                    <img class="img-responsive " src="img/Gridland.jpg" alt="">
                 </div>
             </div>
         </div>
-
     </div>
+    <hr>
     <div id="projects" class="content-section-a">
-
         <div class="container">
-
             <div class="row">
-
                 <div class="col-sm-6 pull-right wow fadeInRightBig">
-                    <img class="img-responsive " src="img/SkaterSite.jpg" alt="">
+                    <a href="https://dramatic-invention.surge.sh" target="_blank"><img class="img-responsive " src="img/SkaterSite.jpg" alt=""></a>
                 </div>
-
                 <div class="col-sm-6 wow fadeInLeftBig" data-animation-delay="200">
                     <h3 class="section-heading">Sk8Site Mock Up</h3>
-                    <p class="lead">A special thanks to Death to the Stock Photo for providing the photographs that you see in this template.
+                    <p class="lead">This is a great example of how a mockup from
+                      Photoshop can be brought to life. Using HTML5 and CSS3/SASS, this site is an
+                      example my design capabilities.
                     </p>
                     <p><a class="btn btn-embossed btn-primary" href="https://dramatic-invention.surge.sh" target="_blank" role="button">Demo</a>
                         <a class="btn btn-embossed btn-info" href="https://github.com/aschuff/hw4" target="_blank" role="button">Github</a></p>
-
                     <ul class="descp lead2">
-                        <li><i class="glyphicon glyphicon-signal"></i> Reliable and Secure Platform</li>
-                        <li><i class="glyphicon glyphicon-refresh"></i> Everything is perfectly orgainized for future</li>
-                        <li><i class="glyphicon glyphicon-headphones"></i> Attach large file easily</li>
+                        <li><i class="fa fa-code fa-lg"></i>HTML5</li>
+                        <li><i class="fa fa-css3"></i> CSS3/SASS</li>
+                        <li><i class="fa fa-mobile fa-lg"></i> Responsive</li>
                     </ul>
                 </div>
             </div>
         </div>
-
     </div>
-    <!-- Screenshot -->
-    <!-- <div id="" class="content-section-b">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6 col-md-offset-3 text-center wrap_title ">
-                        <h2>Screen App</h2>
-                        <p class="lead" style="margin-top:0">A special thanks to Death.</p>
-                    </div>
-                </div>
-                <div class="row wow bounceInUp">
-                    <div id="skills" class="owl-carousel">
-
-                        <a href="img/icon/html5.png" class="image-link">
-                            <div class="item">
-                                <img class="img-responsive img-rounded" src="img/slide/1.png" alt="Owl Image">
-                            </div>
-                        </a>
-
-                        <a href="img/slide/2.png" class="image-link">
-                            <div class="item">
-                                <img class="img-responsive img-rounded" src="img/slide/2.png" alt="Owl Image">
-                            </div>
-                        </a>
-
-                        <a href="img/slide/3.png" class="image-link">
-                            <div class="item">
-                                <img class="img-responsive img-rounded" src="img/slide/3.png" alt="Owl Image">
-                            </div>
-                        </a>
-
-                        <a href="img/slide/1.png" class="image-link">
-                            <div class="item">
-                                <img class="img-responsive img-rounded" src="img/slide/1.png" alt="Owl Image">
-                            </div>
-                        </a>
-
-                        <a href="img/slide/2.png" class="image-link">
-                            <div class="item">
-                                <img class="img-responsive img-rounded" src="img/slide/2.png" alt="Owl Image">
-                            </div>
-                        </a>
-
-                        <a href="img/slide/3.png" class="image-link">
-                            <div class="item">
-                                <img class="img-responsive img-rounded" src="img/slide/3.png" alt="Owl Image">
-                            </div>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div> -->
-
-    <div class="content-section-c ">
+<footer>
+    <div id="contact" class="content-section-c ">
         <div class="container">
             <div class="row">
                 <div class="col-md-6 col-md-offset-3 text-center white">
-                    <h2>Let's Connect!</h2>
+                    <h2>Contact Me</h2>
                     <p class="lead" style="margin-top:0">You're in luck, I'm looking for the right employer.</p>
                 </div>
-                <div class="col-md-6 col-md-offset-3 text-center">
-                    <div class="mockup-content">
-                        <div class="morph-button wow pulse morph-button-inflow morph-button-inflow-1">
-                            <p><a href="https://www.linkedin.com/in/aschuff" class="btn btn-embossed btn-primary view" target="_blank" role="button">Linkedin</a><a href="https://www.twitter.com/aschuff15" class="btn btn-embossed btn-primary view" target="_blank"
-                                    role="button">Twitter</a></p>
+                        <div class="col-xs-12 col-md-8 pull-left wow fadeInLeftBig white">
+                            <h3>Social</h3>
+                            <li class="social">
+                                <a href="mailto:amandaschuff15@gmail.com" target="_blank"><i class="fa fa-envelope fa-3x"> </i></a>
+                                <a href="tel:+1-864-402-3257" target="_blank"><i class="fa fa-phone-square fa-3x"> </i></a>
+                                <a href="https://www.linkedin.com/in/aschuff" target="_blank"><i class="fa fa-linkedin-square fa-3x"> </i></a>
+                                <a href="https://www.twitter.com/aschuff15" target="_blank"><i class="fa  fa-twitter-square fa-3x"> </i> </a>
+                                <a href="https://www.github.com/aschuff" target="_blank"><i class="fa fa-github fa-3x"> </i> </a>
+                            </li>
                         </div>
+                    <div class="col-xs-6 col-md-4 pull-right wow fadeInRightBig white">
+                        <address>
+        					            <h3>Location</h3>
+        					              <p class="lead">
+        					                Charleston, SC</a><br>
+        					                Phone:<a href="tel:+1-864-402-3257" id="phone"> Call Me</a>
+        					      </address>
                     </div>
-                </div>>
+                    </div>
+                </div>
             </div>
-        </div>
-    </div>
-
+</footer>
     <!-- Credits -->
     <!-- <div id="credits" class="content-section-a">
 		<div class="container">
@@ -481,89 +409,6 @@
 			</div>
 		</div>
 	</div> -->
-
-    <!-- Contact -->
-    <div id="contact" class="content-section-a">
-        <div class="container">
-            <div class="row">
-
-                <div class="col-md-6 col-md-offset-3 text-center wrap_title">
-                    <h2>Contact Me</h2>
-                    <p class="lead" style="margin-top:0">Let's get in touch.</p>
-                </div>
-
-                <!-- <form role="form" action="mailto:amandaschuff@gmail.com" method="POST" enctype="text/plain">
-                    <div class="col-md-6">
-                        <div class="form-group">
-                            <label for="InputName">Your Name</label>
-                            <div class="input-group">
-                                <input type="text" class="form-control" name="InputName" id="InputName" placeholder="Enter Name" required>
-                                <span class="input-group-addon"><i class="glyphicon glyphicon-ok form-control-feedback"></i></span>
-                            </div>
-                        </div>
-
-                        <div class="form-group">
-                            <label for="InputEmail">Your Email</label>
-                            <div class="input-group">
-                                <input type="email" class="form-control" id="InputEmail" name="InputEmail" placeholder="Enter Email" required>
-                                <span class="input-group-addon"><i class="glyphicon glyphicon-ok form-control-feedback"></i></span>
-                            </div>
-                        </div>
-
-                        <div class="form-group">
-                            <label for="InputMessage">Message</label>
-                            <div class="input-group">
-                                <textarea name="InputMessage" id="InputMessage" class="form-control" rows="5" required></textarea>
-                                <span class="input-group-addon"><i class="glyphicon glyphicon-ok form-control-feedback"></i></span>
-                            </div>
-                        </div>
-
-                        <input type="submit" name="submit" id="submit" value="Submit" class="btn wow tada btn-embossed btn-primary pull-right">
-                    </div>
-                </form> -->
-
-                <hr class="featurette-divider hidden-lg">
-
-                <!-- <div class="row"> -->
-                    <div class="col-xs-12 col-md-8">
-                        <h3>Social</h3>
-                        <li class="social">
-                            <a href="mailto:amandaschuff15@gmail.com" target="_blank"><i class="fa fa-envelope fa-4x"> </i></a>
-                            <a href="tel:+1-864-402-3257" target="_blank"><i class="fa fa-phone-square fa-4x"> </i></a>
-                            <a href="https://www.linkedin.com/in/aschuff" target="_blank"><i class="fa fa-linkedin-square fa-4x"> </i></a>
-                            <a href="https://www.twitter.com/aschuff15" target="_blank"><i class="fa  fa-twitter-square fa-4x"> </i> </a>
-                            <a href="https://www.github.com/aschuff" target="_blank"><i class="fa fa-github fa-4x"> </i> </a>
-                        </li>
-                    </div>
-                <!-- </div> -->
-                <div class="col-xs-6 col-md-4">
-                    <address>
-    					            <h3>Location</h3>
-    					              <p class="lead">
-    					                Charleston, SC</a><br>
-    					                Phone:<a href="tel:+1-864-402-3257">864-402-3257</a><br>
-    					      </address>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <footer>
-        <div class="container">
-            <div class="row">
-                <!-- /col-xs-7 -->
-
-                    <div class="footer-banner">
-                        <h2>Amanda M. Schuff</h2>
-                        <ul>
-                          <a href="https://www.linkedin.com/in/aschuff" target="_blank"><i class="fa fa-linkedin-square fa-size"> </i></a>
-                          <a href="https://www.twitter.com/aschuff15" target="_blank"><i class="fa  fa-twitter-square fa-size"> </i> </a>
-                          <a href="https://www.github.com/aschuff" target="_blank"><i class="fa fa-github fa-size"> </i> </a>
-                        </ul>
-                    </div>
-            </div>
-        </div>
-    </footer>
 
     <!-- JavaScript -->
     <script src="js/jquery-1.10.2.js"></script>
