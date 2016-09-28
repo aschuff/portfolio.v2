@@ -68,6 +68,18 @@
 	margin-top:60px;
 	float: right
 }
+.h1_home {
+	font-family: 'Montserrat', sans-serif;
+}
+.btn.btn-lg.mybutton_standard.wow.swing.wow.fadeIn {
+	background-color: #1abc9c;
+	border-color: transparent;
+}
+.btn.btn-lg.mybutton_standard.wow.swing.wow.fadeIn:hover {
+	background-color: transparent;
+	color: #1abc9c;
+	border-color: inherit;
+}
 img.arrow-down{
 	margin: 0 auto;
 	display: block;
@@ -99,9 +111,9 @@ pre.pre-show{
 }
 #myface {
 	display: block;
-	max-width: 60%;
+	max-width: 75%;
 	height: auto;
-	border-radius: 50%;
+	border-radius: 40%;
 	margin: 0 auto;
 }
 .img-responsive {
@@ -144,6 +156,13 @@ footer h2 {
 }
 footer a {
 	margin-right: 1%;
+	color: white;
+}
+footer a:hover{
+	color: #1abc9c;
+}
+footer a:visited{
+	color: #1abc9c;
 }
 footer p.lead {
 	color: #FFF;
@@ -151,10 +170,13 @@ footer p.lead {
 li.social {
 	margin-top: 1%;
 }
-#phone:hover {
+a#phone:hover {
 	color: #1ABC9C;
 	text-decoration: none;
 	cursor: pointer;
+}
+a#phone:visited {
+	color: #1ABC9C;
 }
 .twitter-share-button{
 	top: 4px;

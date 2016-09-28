@@ -77,8 +77,8 @@ margin: auto;
 	font-family: arvo;
 	font-weight: 300;
 	letter-spacing: 6px;
-	-webkit-text-stroke-width: 3px;
-   -webkit-text-stroke-color: #34495E;
+	/*-webkit-text-stroke-width: 3px;
+   -webkit-text-stroke-color: #34495E;*/
 }
 
 .h3_home{font-weight: 300;}
@@ -249,7 +249,7 @@ color: #ECEBEB;
 	padding-bottom: 50px;
 	color: #f8f8f8;
 	/*background: url(../img/intro/intro5.jpg) no-repeat center center;*/
-	background: url(../img/mountains.jpg) no-repeat center center;
+	background: url(../img/sullivansblue2.jpg) no-repeat center center;
 	background-size: cover;
 	text-align: center;
 }
@@ -1068,7 +1068,6 @@ color: #ECEBEB;
 			padding-top: 50px;
 			padding-bottom: 50px;
 			color: #f8f8f8;
-		    background-image: none;
 			background-size: cover;
 			text-align: center;
 			background-color: #34495e;
@@ -1084,7 +1083,9 @@ color: #ECEBEB;
 		#gallery1{display:none}
 
 		.button_down {display:none}
-
+		.col-xs-6.col-md-4.pull-right.wow.fadeInRightBig.white {
+			margin-right: 25%;
+		}
 
 	}
 
