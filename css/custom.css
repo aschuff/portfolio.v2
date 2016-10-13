@@ -143,6 +143,19 @@ padding: 8px 12px;
 	width: 100%;
 	height: auto;
 }
+/* Projects */
+#projects {
+	padding: 3% 0;
+}
+
+/* Freelance */
+#freelance.banner {
+	height: 32em;
+}
+#freelanceContact {
+	margin: 9% 0 15px;
+}
+
 /* Footer */
 
 footer{
